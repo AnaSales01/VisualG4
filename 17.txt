@@ -1,0 +1,23 @@
+algoritmo "ProgramaFahrenheit/Celsius"
+// Função : O programa retorna as temperaturas de 10 a 100 em Fahreinheit e em Celsius.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+F,C: real
+cont: inteiro
+
+inicio
+
+   escreval("Olá bem-vindo(a) ao Programa Graus Fahrenheit/Celsius!")
+      cont <- 10
+   repita
+      F <- (9 * cont + 160)/5
+      C <- (F - 32) * (5/9)
+   escreval("Graus em Fahrenheit: ",F)
+   escreval("Graus em Celsius: ",C)
+      cont <- cont + 1
+   ate(cont >= 100)
+
+fimalgoritmo

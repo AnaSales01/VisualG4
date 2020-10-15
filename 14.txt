@@ -1,0 +1,21 @@
+algoritmo "ProgramaCalculadora1a500"
+// Função : O programa retorna a soma total dos números pares de 1 a 500.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+
+ R,cont: inteiro
+
+inicio
+
+ escreval("Seja bem-vindo(a) a calculadora que soma os valores pares de 1 a 500!")
+    cont <- 1
+  repita
+    R <- R + cont
+    cont <- cont + 2
+  ate (cont > 500)
+ escreval("O total da soma é: ",R)
+
+fimalgoritmo

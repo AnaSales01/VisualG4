@@ -1,0 +1,20 @@
+algoritmo "Potênciade3"
+// Função : O programa retorna as potências de 3, do 0 ao 15.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+ R,cont: inteiro
+
+inicio
+
+   escreval ("Seja bem-vindo a calculadora de potência do 3")
+   cont <- 1
+   repita
+   R <- cont * cont * cont
+   escreval (R)
+   cont <- cont + 1
+    ate(cont > 15)
+
+fimalgoritmo

@@ -1,0 +1,21 @@
+algoritmo "ProgramaMúltiplode4"
+// Função : O programa retorna os múltiplos de 4 do intervalo de 1 a 200.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+ cont: inteiro
+
+inicio
+  escreval("Seja bem-vindo(a) ao Programa Múltiplo de 4!")
+  escreval("Os múltiplos de 4 do intervalo 1 a 200 são: ")
+     cont <- 1
+    repita
+     cont <- cont + 1
+    se (cont mod 4 = 0) entao
+  escreval(cont)
+    fimse
+    ate(cont >= 200)
+
+fimalgoritmo

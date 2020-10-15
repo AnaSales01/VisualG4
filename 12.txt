@@ -1,0 +1,18 @@
+algoritmo "ProgramaCalculadora1a100"
+// Função : O Programa retorna a soma dos números de 1 a 100.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+ R: real
+ cont: inteiro
+inicio
+  escreval("Seja, bem-vindo(a) ao Programa Calculadora de 1 a 100!")
+    cont <- 1
+ repita
+ R <- R + cont
+  escreval(R)
+    cont <- cont + 1
+    ate (cont > 100)
+
+fimalgoritmo

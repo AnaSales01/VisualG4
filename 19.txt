@@ -1,0 +1,29 @@
+algoritmo "ProgramaMenorque0"
+// Função : O usuário insere um número e o programa retorna a soma e a média se for maior que 0.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+ N,cont: inteiro
+ S,M: real
+
+inicio
+
+   escreval("Olá bem-vindo(a) ao Programa Graus Fahrenheit/Celsius!")
+      cont <- 1
+    repita
+   escreval("Digite um número qualquer (inteiro) ")
+      leia(N)
+      S <- S + N
+      M <- S/10
+      cont <- cont + 1
+     ate(cont > 10)
+     se (N > 0)entao
+   escreval("A soma é: ",S)
+   escreval("A média é ",M)
+     senao
+   escreval("Escolha um número diferente de 0!")
+     fimse
+
+fimalgoritmo

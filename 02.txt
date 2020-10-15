@@ -1,0 +1,18 @@
+algoritmo "ProgramaDecrescente"
+// Função : O programa retorna os valores decrescentes de 10 a 1.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+cont: inteiro
+inicio
+
+escreval("Seja bem-vindo ao Programa Decrescente!")
+escreval("Os números decrescentes de 10 a 1 são:")
+cont <- 10
+repita
+escreval(cont)
+cont <- cont - 1
+ate (cont = 0)
+
+fimalgoritmo

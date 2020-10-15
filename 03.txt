@@ -1,0 +1,20 @@
+algoritmo "ProgramadeMeioemMeio"
+// Função : O programa retorna os números de 1 a 5 de meio em meio
+// Autor : Ana Claudia Correa da Silva
+// Data : 15/10/2020
+// Seção de Declarações 
+var
+
+ cont: real
+
+inicio
+
+escreval("Seja bem-vindo ao Programa de Meio em Meio!")
+escreval("Os números crescentes de 0 a 5 são:")
+cont <- 0
+repita
+escreval(cont)
+cont <- cont + 0.5
+ate (cont > 5)
+
+fimalgoritmo

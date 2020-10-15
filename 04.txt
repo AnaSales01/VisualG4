@@ -1,0 +1,17 @@
+algoritmo "ProgramaMaiorNúmero"
+// Função : O usuário informa um número e o programa retorna os números maiores que o número digitado.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+N, cont: inteiro
+inicio
+escreval("Seja bem-vindo(a) ao Programa Números maiores que vc deseja!")
+escreval("Digite um número qualquer (inteiro)")
+leia(N)
+cont <- N
+repita
+escreval(cont)
+cont <- cont + 1
+ate (cont > 100)
+fimalgoritmo

@@ -1,0 +1,24 @@
+algoritmo "ProgramaSoma"
+// Função : O usuário insere 5 números e o programa retorna a soma.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+
+ cont, N1,R: inteiro
+
+inicio
+
+  escreval("Seja, bem-vindo(a) ao Programa Soma!")
+    cont <- 1
+      repita
+  escreval("Digite um número qualquer (inteiro) ")
+      leia(N1)
+      R <- R + N1
+      cont <- cont + 1
+    ate (cont > 5)
+  escreval("A soma dos números inseridos é: ",R)
+
+
+fimalgoritmo

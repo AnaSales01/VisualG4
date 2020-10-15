@@ -1,0 +1,25 @@
+algoritmo "ProgramaSomaeMedia"
+// Função : O usuário insere 10 números e o programa retorna a soma e a média.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+S,M: real
+cont,N: inteiro
+
+inicio
+
+   escreval("Olá bem-vindo(a) ao Programa Graus Fahrenheit/Celsius!")
+      cont <- 1
+   repita
+   escreval("Digite um número qualquer (inteiro) ")
+   leia(N)
+      S <- S + N
+      M <- S/10
+      cont <- cont + 1
+   ate(cont > 10)
+   escreval("A soma é: ",S)
+   escreval("A média é ",M)
+
+fimalgoritmo

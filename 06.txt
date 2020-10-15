@@ -1,0 +1,19 @@
+algoritmo "ProgramaCalculadoraPotência"
+// Função : O Programa retorna o quadrado dos números que estão no intervalo 15 a 200.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+ R: real
+ cont: inteiro
+inicio
+ escreval("Seja, bem-vindo(a) ao Programa Calculadora de Potência!")
+ escreval("O quadrado dos números de 15 a 200 são: ")
+ cont <- 15
+ repita
+R <- cont^2
+ escreval(R)
+    cont <- cont + 1
+    ate (cont > 200)
+
+fimalgoritmo

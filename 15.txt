@@ -1,0 +1,19 @@
+algoritmo "ProgramaImparesde0a20"
+// Função : O programa retorna os números impares de 0 a 20
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+ cont: inteiro
+
+inicio
+ escreval("Seja, bem-vindo(a) ao Programa Impares de 0 a 20!")
+    cont <- 1
+ escreval("Os números impares de 0 a 20 são: ")
+   repita
+ escreval(cont)
+    cont <- cont + 2
+   ate (cont > 20)
+
+fimalgoritmo

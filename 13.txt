@@ -1,0 +1,29 @@
+algoritmo "ProgramaTabuada"
+// Função : O programa retorna a tabuada do número inserido que seja diferente de 0.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+
+ R: real
+ cont,X: inteiro
+ N: logico
+inicio
+
+ escreval("Seja, bem-vindo(a) ao Programa Tabuada de 1 a 10!")
+ escreval("Digite um número qualquer (inteiro) ")
+   leia(X)
+ escreval("A tabuada do ",X," é: ")
+    cont <- 1
+   repita
+    R <- cont*x
+  se X > 0 entao
+ escreval(R)
+   fimse
+    cont <- cont + 1
+   ate (cont > 10)
+
+
+
+fimalgoritmo

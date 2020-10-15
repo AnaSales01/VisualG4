@@ -1,0 +1,22 @@
+algoritmo "ProgramaNome"
+// Função : O usuário insere 5 nome e o programa retorna os nomes.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+ N1: caractere
+ cont: inteiro
+
+inicio
+
+  escreval("Seja, bem-vindo(a) ao Programa Nome!")
+    cont <- 1
+      repita
+      escreval("Digite o seu nome ")
+      leia(N1)
+  escreval(N1)
+    cont <- cont + 1
+  ate (cont > 5)
+
+fimalgoritmo

@@ -1,0 +1,18 @@
+algoritmo "ProgramaCrescente"
+// Função : O programa retorna os valores crescentes de 1 a 10.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+cont: inteiro
+inicio
+
+escreval("Seja bem-vindo ao Programa Crescente!")
+escreval("Os números crescentes de 1 a 10 são:")
+cont <- 1
+repita
+escreval(cont)
+cont <- cont + 1
+ate (cont > 10)
+
+fimalgoritmo

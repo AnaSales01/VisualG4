@@ -1,0 +1,19 @@
+algoritmo "ProgramaSomaeMedia"
+// Função : O programa retorna os números pares entre 50 e 70.  Além de retornar a soma e a média desses números.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+cont, S, M: real
+inicio
+escreval("Seja bem-vindo(a) ao Programa Soma e Média!")
+cont <- 50
+repita
+escreval(cont)
+S <- S + cont
+M <- S/cont
+cont <- cont + 2
+ate (cont > 70)
+escreval("Esse é a soma: ",S)
+escreval("Essa é a média: ",M)
+fimalgoritmo

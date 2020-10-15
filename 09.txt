@@ -1,0 +1,25 @@
+algoritmo "Programabinário"
+// Função : O usuário insere um número e o programa retorna números binários.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 14/10/2020
+// Seção de Declarações 
+var
+
+ R,P: real
+ cont,X: inteiro
+
+inicio
+
+  escreval("Seja, bem-vindo(a) ao Programa Binário!")
+  escreval("Digite um número qualquer (inteiro) ")
+      leia(X)
+    cont <- 1
+      repita
+    R <- X^0
+    P <- X*0
+  escreval(R)
+  escreval(P)
+    cont <- cont + 1
+  ate (cont > X)
+
+fimalgoritmo
