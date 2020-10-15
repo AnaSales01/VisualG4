@@ -1,0 +1,30 @@
+algoritmo "ProgramaCriptografia"
+// Função : O usuário insere um número e o programa retorna se é inválido ou não. Se for primo é válido
+// Autor :  Ana Claudia Correa da Silva
+// Data : 15/10/2020
+// Seção de Declarações 
+var
+
+   N: inteiro
+   R: caractere
+
+inicio
+
+     escreval("Seja bem-vindo(a) ao Programa Criptografia!")
+     escreval("")
+        repita
+     escreval("Digite um número qualquer (inteiro) ")
+        leia(N)
+        se (N = 2 ) ou (N mod 2 <> 0)entao
+     escreval("")
+     escreval("Acesso Válido!")
+        senao
+     escreval("Acesso inválido!")
+        fimse
+     escreval("")
+     escreval("Deseja Continuar? ")
+     escreval("")
+        leia(R)
+        ate(R = "Não")
+
+fimalgoritmo
